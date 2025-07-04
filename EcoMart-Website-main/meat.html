@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - EcoMart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo"><i class="fas fa-shopping-basket"></i> EcoMart</a>
+    <h1 class="heading">Meat, Fish <span>&</span> Eggs</h1>
+    <a href="index.html" class="btn">Back to Home</a>
+  </header>
+
+  <section class="products" id="products">
+    <div class="box-container">
+      <div class="box">
+        <img src="images/eggs.jpeg" alt="Eggs">
+        <h3>Eggs 10</h3>
+        <span class="price">₹60/</span>
+        <a href="#" class="btn" onclick="addProductToCart('Eggs', 60, 'images/eggs.jpeg')">Add to Cart</a>
+      </div><br>
+      <div class="box">
+        <img src="images/eggs6.jpeg" alt="Egg">
+        <h3>Eggs 6</h3>
+        <span class="price">₹35/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Eggs',35, 'images/eggs6.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/mutton.jpeg" alt="Mutton">
+        <h3>Mutton(1kg)</h3>
+        <span class="price">₹860/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Mutton(1Kg)', 860, 'images/mutton.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/chicken.jpeg" alt="Chicken">
+        <h3>Chicken(1Kg)</h3>
+        <span class="price">₹240/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Chicken(1Kg)', 240, 'images/chicken.jpeg')">Add to Cart</a>
+      </div>
+    </div>
+    <div class="box-container">
+      <div class="box">
+        <img src="images/prawn.jpeg" alt="prawn">
+        <h3>Prawns(1Kg)</h3>
+        <span class="price">₹650/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Prawns(1Kg)', 650, 'images/prawn.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/liver.jpeg" alt="Liver">
+        <h3>Sneha's Liver</h3>
+        <span class="price">₹300/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Mutton Liver', 300, 'images/liver.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/katla.jpeg" alt="Katla">
+        <h3>Katla</h3>
+        <span class="price">₹230/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Katla', 300, 'images/katla.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/Basa.jpeg" alt="Basa">
+        <h3>Basa</h3>
+        <span class="price">₹190/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Basa', 190, 'images/Masti.JPG')">Add to Cart</a>
+      </div>
+     </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>

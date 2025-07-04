@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - EcoMart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo"><i class="fas fa-shopping-basket"></i> EcoMart</a>
+    <h1 class="heading">Cookies <span>&</span> Biscuits</h1>
+    <a href="index.html" class="btn">Back to Home</a>
+  </header>
+
+  <section class="products" id="products">
+    <div class="box-container">
+      <div class="box">
+        <img src="images/cookie1.jpeg" alt="Oats & Chocolate Cookies">
+        <h3>Oats & Chocolate Cookies</h3>
+        <span class="price">₹70/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Oats & Chocolate Cookies', 70, 'images/cookie1.jpeg')">Add to Cart</a>
+      </div><br>
+      <div class="box">
+        <img src="images/cookie2.jpeg" alt="Hide & Seek Choco Rolls">
+        <h3>Parle Hide & Seek <br> Choco Rolls</h3>
+        <span class="price">₹45/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Hide & Seek Choco Rolls',45, 'images/cookie2.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/cookie3.jpeg" alt="Sunfeast Walnut Chocochip Cookies">
+        <h3>Sunfeast Walnut Chocochip Cookies</h3>
+        <span class="price">₹85/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Sunfeast Walnut Chocochip Cookiese',85, 'images/cookie3.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/cookie4.jpeg" alt="Candbury ChocoBakes Cookie">
+        <h3>Candbury ChocoBakes Cookies</h3>
+        <span class="price">₹60/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Candbury ChocoBakes Cookie', 60, 'images/cookie4.jpeg')">Add to Cart</a>
+      </div>
+    </div>
+    <div class="box-container">
+      <div class="box">
+        <img src="images/cookie5.jpeg" alt="Britania Good Day Chocolate Cookies">
+        <h3>Britania Good Day Chocolate Cookies</h3>
+        <span class="price">₹55/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Britania Good Day Chocolate Cookies', 55, 'images/cookie5.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/cookie6.jpeg" alt="Parle Fab Jam-In">
+        <h3>Parle Fab Jam-In</h3>
+        <span class="price">₹45/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Parle Fab Jam-In', 45, 'images/cookie6.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/cookie7.jpg" alt="Parle NutriCrunch Digestive">
+        <h3>Parle NutriCrunch Digestive</h3>
+        <span class="price">₹60/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Parle NutriCrunch Digestive', 60, 'images/cookie7.jpg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/cookie8.jpg" alt="UNIBIC Danish Coconut Cookies">
+        <h3>UNIBIC Danish Coconut Cookies</h3>
+        <span class="price">₹75/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('UNIBIC Danish Coconut Cookies', 75, 'images/cookie8.jpg')">Add to Cart</a>
+      </div>
+     </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>

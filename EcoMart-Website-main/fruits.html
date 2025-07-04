@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - EcoMart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo"><i class="fas fa-shopping-basket"></i> EcoMart</a>
+    <h1 class="heading">Fresh <span>Fruits</span></h1>
+    <a href="index.html" class="btn">Back to Home</a>
+  </header>
+
+  <section class="products" id="products">
+    <div class="box-container">
+      <div class="box">
+        <img src="images/mango.jpg" alt="Mango">
+        <h3>Mango</h3>
+        <span class="price">₹60/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Mango', 60, 'images/mango.jpg')">Add to Cart</a>
+      </div>
+      
+      <div class="box">
+        <img src="images/watermelon.jpg" alt="Watermelon">
+        <h3>Watermelon</h3>
+        <span class="price">₹20/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Watermelon', 20, 'images/watermelon.jpg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/pomegranate.jpg" alt="Pomegranate">
+        <h3>Pomegranate</h3>
+        <span class="price">₹120/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Pomegranate', 120, 'images/pomegranate.jpg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/dragaonfruit.jpg" alt="dragaonfruit">
+        <h3>Dragaon Fruit</h3>
+        <span class="price">₹90/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('dragaonfruit', 90, 'images/dragaonfruit')">Add to Cart</a>
+      </div>
+    </div>
+    <div class="box-container">
+      <div class="box">
+        <img src="images/apple.JPG" alt="Apple">
+        <h3>Apple</h3>
+        <span class="price">₹70/Kg</span>
+        <a href="#" class="btn" onclick="addProductToCart('Apple', 70, 'images/apple.JPG')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/grapes.jpg" alt="Grapes">
+        <h3>Grapes</h3>
+        <span class="price">₹100/Kg</span>
+        <a href="#" class="btn" onclick="addProductToCart('Grapes', 100, 'images/grapes.jgp')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/guava.jpg" alt="Grapes">
+        <h3>Guava</h3>
+        <span class="price">₹50/Kg</span>
+        <a href="#" class="btn" onclick="addProductToCart('Guava', 50, 'images/guava.jpg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/orange.jpg" alt="Grapes">
+        <h3>Orange</h3>
+        <span class="price">₹40/Kg</span>
+        <a href="#" class="btn" onclick="addProductToCart('Orange', 40, 'images/orange.jpg')">Add to Cart</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>

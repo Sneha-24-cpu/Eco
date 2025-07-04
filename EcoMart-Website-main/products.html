@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - EcoMart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo"><i class="fas fa-shopping-basket"></i> EcoMart</a>
+    <h1 class="heading">Our <span>Products</span></h1>
+    <a href="index.html" class="btn">Back to Home</a>
+  </header>
+
+  <section class="products" id="products">
+    <div class="box-container">
+      <div class="box">
+        <img src="images/mango.jpg" alt="Mango">
+        <h3>Mango</h3>
+        <span class="price">₹60/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Mango', 60, 'images/mango.jpg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/watermelon.jpg" alt="Watermelon">
+        <h3>Watermelon</h3>
+        <span class="price">₹20/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Watermelon', 20, 'images/watermelon.jpg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/pomegranate.jpg" alt="Pomegranate">
+        <h3>Pomegranate</h3>
+        <span class="price">₹120/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Pomegranate', 120, 'images/pomegranate.jpg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/coke.jpeg" alt="Coca Cola">
+        <h3>Coca Cola(1.25L)</h3>
+        <span class="price">₹90/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Coca Cola', 90, 'images/coke.jpeg')">Add to Cart</a>
+      </div><br>
+      <div class="box">
+        <img src="images/thumsup.jpeg" alt="ThumsUp">
+        <h3>ThumsUp</h3>
+        <span class="price">₹50/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('ThumsUp', 50, 'images/thumsup.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/dragaonfruit.jpg" alt="dragaonfruit">
+        <h3>Dragaon Fruit</h3>
+        <span class="price">₹90/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('dragaonfruit', 90, 'images/dragaonfruit')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/MixedFruit.jpg" alt="MixedFruit">
+        <h3>MixedFruit Juice(1L)</h3>
+        <span class="price">₹95/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('B Natural MixedFruit Juice(1L)', 95, 'images/MixedFruit.jpg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/amulgold.jpeg" alt="Milk">
+        <h3>Anuml Gold (1L)</h3>
+        <span class="price">₹80/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Amul Gold', 80, 'images/amulgold.jpeg')">Add to Cart</a>
+      </div><br>
+      <div class="box">
+        <img src="images/greek.jpeg" alt="Coca Cola">
+        <h3>Greek Yogurt(400g)</h3>
+        <span class="price">₹90/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Greek Yogurt', 90, 'images/greek.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/bread.jpeg" alt="Coca Cola">
+        <h3>Bread</h3>
+        <span class="price">₹45/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Bread', 45, 'images/bread.jpeg')">Add to Cart</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>

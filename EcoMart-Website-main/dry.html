@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - EcoMart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo"><i class="fas fa-shopping-basket"></i> EcoMart</a>
+    <h1 class="heading">Masala <span>&</span> Dry Fruits</h1>
+    <a href="index.html" class="btn">Back to Home</a>
+  </header>
+
+  <section class="products" id="products">
+    <div class="box-container">
+      <div class="box">
+        <img src="images/Haldi.JPG" alt="Haldi">
+        <h3>Haldi Powder</h3>
+        <span class="price">₹30/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Haldi', 30, 'images/Haldi.JPG')">Add to Cart</a>
+      </div><br>
+      <div class="box">
+        <img src="images/LalMirch.JPG" alt="RedChilli">
+        <h3>Red Chilli Powder</h3>
+        <span class="price">₹30/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Red Chilli Powder',30, 'images/LalMirch.JPG')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/GaramMasala.JPG" alt="Garam">
+        <h3>Sahi Garam Masala</h3>
+        <span class="price">₹30/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Sahi Garam Masala', 30, 'images/GaramMasala.JPG')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/Jeera.JPG" alt="Jeera">
+        <h3>Jeera Powder</h3>
+        <span class="price">₹30/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Jeera', 30, 'images/Jeera.JPG')">Add to Cart</a>
+      </div>
+    </div>
+    <div class="box-container">
+      <div class="box">
+        <img src="images/Pistachio.JPG" alt="prawn">
+        <h3>Pistachio</h3>
+        <span class="price">₹30/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Pistachio', 30, 'images/Pistachio.JPG')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/Dates.JPG" alt="Liver">
+        <h3>Dates</h3>
+        <span class="price">₹30/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Dates', 30, 'images/Dates.JPG')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/Cashew.JPG" alt="Katla">
+        <h3>Cashew</h3>
+        <span class="price">₹30/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Katla', 30, 'images/Cashew.JPG')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/Mixed.JPG" alt="Basa">
+        <h3>Mixed Dry Fruits</h3>
+        <span class="price">₹30/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Basa', 30, 'images/Mixed.JPG')">Add to Cart</a>
+      </div>
+     </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>

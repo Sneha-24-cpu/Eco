@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - EcoMart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo"><i class="fas fa-shopping-basket"></i> EcoMart</a>
+    <h1 class="heading"><span>Vegetables</span></h1>
+    <a href="index.html" class="btn">Back to Home</a>
+  </header>
+
+  <section class="products" id="products">
+    <div class="box-container">
+      <div class="box">
+        <img src="images/tomatoes.jpeg" alt="Tomatoes">
+        <h3>Tomatoes</h3>
+        <span class="price">₹35/Kg</span>
+        <a href="#" class="btn" onclick="addProductToCart('Tomatoes', 35, 'images/tomatoes.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/cabbage.jpeg" alt="Cabbage">
+        <h3>Cabbage</h3>
+        <span class="price">₹30/Kg</span>
+        <a href="#" class="btn" onclick="addProductToCart('Cabbage', 30, 'images/cabbage.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/potateos.jpeg" alt="Potatoes">
+        <h3>Potatoes</h3>
+        <span class="price">₹34/Kg</span>
+        <a href="#" class="btn" onclick="addProductToCart('Potatoes', 34, 'images/potateos.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/onion.jpeg" alt="Onion">
+        <h3>Onion</h3>
+        <span class="price">₹30/Kg</span>
+        <a href="#" class="btn" onclick="addProductToCart('dragaonfruit', 30, 'images/onion.jpeg')">Add to Cart</a>
+      </div>
+    </div>
+     <div class="box-container">
+      <div class="box">
+        <img src="images/carrot.jpg" alt="Carrot">
+        <h3>Carrot</h3>
+        <span class="price">₹35/Kg</span>
+        <a href="#" class="btn" onclick="addProductToCart('Carrot', 35, 'images/carrot.jpg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/beet.jpg" alt="Beet">
+        <h3>BeetRoot</h3>
+        <span class="price">₹30/Kg</span>
+        <a href="#" class="btn" onclick="addProductToCart('BeetRoot', 30, 'images/beet.jpg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/Bhindi.jpg" alt="Bhindi">
+        <h3>Ladies Finger</h3>
+        <span class="price">₹34/Kg</span>
+        <a href="#" class="btn" onclick="addProductToCart('Ladies Finger', 134, 'images/Bhindi.jpg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/Brijal.jpg" alt="Brinjal">
+        <h3>Brinjal</h3>
+        <span class="price">₹30/Kg</span>
+        <a href="#" class="btn" onclick="addProductToCart('Brinjal', 30, 'images/Brijal.jpg')">Add to Cart</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>

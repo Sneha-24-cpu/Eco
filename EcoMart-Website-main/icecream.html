@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - EcoMart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo"><i class="fas fa-shopping-basket"></i> EcoMart</a>
+    <h1 class="heading">Cookies <span>&</span> Biscuits</h1>
+    <a href="index.html" class="btn">Back to Home</a>
+  </header>
+
+  <section class="products" id="products">
+    <div class="box-container">
+      <div class="box">
+        <img src="images/ice1.jpeg" alt="Go Zero Raspberry">
+        <h3>Go Zero Raspberry Icecream</h3>
+        <span class="price">₹30/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Go Zero Raspberry', 30, 'images/ice1.jpeg')">Add to Cart</a>
+      </div><br>
+      <div class="box">
+        <img src="images/ice2.jpeg" alt="Go Zero ButterScotch">
+        <h3>Go Zero ButterScotch</h3>
+        <span class="price">₹45/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Go Zero ButterScotch',45, 'images/ice2.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/ice3.jpeg" alt="Go Zero Brownie">
+        <h3>Go Zero Brownie Icecream</h3>
+        <span class="price">₹300/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Go Zero Brownie', 300, 'images/ice3.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/ice4.jpeg" alt="CreamBell Double Choco">
+        <h3>CreamBell Double Chocolate</h3>
+        <span class="price">₹350/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('CreamBell Double Choco', 350, 'images/ice4.jpeg')">Add to Cart</a>
+      </div>
+    </div>
+    <div class="box-container">
+      <div class="box">
+        <img src="images/ice5.jpeg" alt="Kwality Walls ButterScotch">
+        <h3>Kwality Walls ButterScotch</h3>
+        <span class="price">₹400/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Kwality Walls ButterScotch', 400, 'images/ice5.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/ice6.jpeg" alt="Amul Chocolate Brownie">
+        <h3>Amul Chocolate Brownie</h3>
+        <span class="price">₹500/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Amul Chocolate Brownie', 500, 'images/ice6.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/ice7.jpeg" alt="Black Forest Icecream">
+        <h3>Black Forest Icecream</h3>
+        <span class="price">₹150/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Black Forest Icecream', 150, 'images/ice7.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/ice8.jpeg" alt="CreamBell Vanilla Icecream">
+        <h3>CreamBell Vanilla Icecream</h3>
+        <span class="price">₹275/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('CreamBell Vanilla Icecream', 275, 'images/ice8.jpeg')">Add to Cart</a>
+      </div>
+     </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>

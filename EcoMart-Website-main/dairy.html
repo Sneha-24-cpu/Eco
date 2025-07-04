@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - EcoMart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo"><i class="fas fa-shopping-basket"></i> EcoMart</a>
+    <h1 class="heading">Soft Drinks <span>&</span> Beverages</h1>
+    <a href="index.html" class="btn">Back to Home</a>
+  </header>
+
+  <section class="products" id="products">
+    <div class="box-container">
+      <div class="box">
+        <img src="images/amulgold.jpeg" alt="Milk">
+        <h3>Anuml Gold (1L)</h3>
+        <span class="price">₹80/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Amul Gold', 80, 'images/amulgold.jpeg')">Add to Cart</a>
+      </div><br>
+      <div class="box">
+        <img src="images/greek.jpeg" alt="Coca Cola">
+        <h3>Greek Yogurt(400g)</h3>
+        <span class="price">₹90/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Greek Yogurt', 90, 'images/greek.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/Cheese.jpeg" alt="MixedFruit">
+        <h3>Cheese 200g</h3>
+        <span class="price">₹125/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Cheese 200g', 125, 'images/Cheese.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/paneer.jpeg" alt="ColdCoffee">
+        <h3>Paneer 200g</h3>
+        <span class="price">₹91/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Paneer 200g', 91, 'images/paneer.jpeg')">Add to Cart</a>
+      </div>
+    </div>
+    <div class="box-container">
+      <div class="box">
+        <img src="images/bread.jpeg" alt="bread">
+        <h3>Bread</h3>
+        <span class="price">₹45/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Bread', 45, 'images/bread.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/butter.jpeg" alt="butter">
+        <h3>Butter 500g</h3>
+        <span class="price">₹300/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Butter 500g', 300, 'images/butter.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/browm.jpeg" alt="butter">
+        <h3>Brown Bread 400g</h3>
+        <span class="price">₹55/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Brown Bread', 55, 'images/browm.jpeg')">Add to Cart</a>
+      </div>
+      <div class="box">
+        <img src="images/Masti.JPG" alt="Amul">
+        <h3>Amul Masti Dahi 390g</h3>
+        <span class="price">₹35/-</span>
+        <a href="#" class="btn" onclick="addProductToCart('Amul Masti Dahi', 35, 'images/Masti.JPG')">Add to Cart</a>
+      </div>
+     </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
